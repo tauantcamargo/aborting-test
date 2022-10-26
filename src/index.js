@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import TodoProvider from './providers/todoProvider';
+import TodosProvider from './providers/todosProvider';
 import reportWebVitals from './reportWebVitals';
+import MainRoute from './routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <TodosProvider>
+    <TodoProvider>
+      <MainRoute />
+    </TodoProvider>
+  </TodosProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

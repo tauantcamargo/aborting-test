@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Read Software book",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Study something",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Eat",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Sleep",
+      "completed": false
+    }
+  ]
+}
